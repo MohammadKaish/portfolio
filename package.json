@@ -1,0 +1,24 @@
+{ 
+  "name": "bs5-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple workflow for working with and customizing Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Mohammad Kaish",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.5.2"
+  }
+}
